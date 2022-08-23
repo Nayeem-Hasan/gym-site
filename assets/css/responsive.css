@@ -1,0 +1,211 @@
+
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+  
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  
+  .single-footer-box {
+    font-size: 14px;
+  }
+  .features-content img{
+    margin-bottom: 0;
+  }
+  .features-content p{
+    margin: 0;
+  }
+  
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  
+  .navbar ul li {
+    padding: 10px 10px;
+  }
+  .features-content {
+    padding: 0px 10px 15px;
+  }
+  .features-content img {
+      width: 50px;
+  }
+  .clients-img-sontent {
+    margin-left: -110px;
+  }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  
+  /* CSS */
+  
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  
+  .slicknav_menu {
+    display: block;
+  }
+  ul.out_menu {
+      display: none;
+  }
+  .slicknav_ {
+      text-align: center;
+  }
+  .logo {
+      position: fixed;
+      left: 10px;
+      top: 0px;
+  }
+  .slicknav_menu a:hover {
+      border-radius: 5px;
+      background: var(--red);
+      color: var(--white);
+  }
+  .slicknav_menu.sticky {
+      position: fixed;
+      left: 0;
+      right: 0;
+      z-index: 5;
+  }
+  header.sticky {
+      background: none;
+      top: 0;
+      padding: 0;
+  }
+
+  .about-content {
+    padding-left: 0;
+    margin-top: 60px;
+  }
+  .content-header{
+    font-size: 30px;
+  }
+  .about-content .content-title::after {
+    left: 145px;
+  }
+  .about-content .content-title::before {
+    left: 20%;
+  }
+  .pricing-content {
+    margin-bottom: 30px;
+  }
+  .features-content {
+    padding: 0px 10px 15px;
+  }
+  .features-content img {
+      width: 50px;
+  }
+  .discount-content {
+    width: 100%;
+  }
+  .blogs-slider .slick-dots li button{
+    width: 35px;
+  }
+  .clients-img-sontent {
+    margin-left: -45%;
+  }
+  
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  
+  .slicknav_menu {
+    display: block;
+  }
+  ul.out_menu {
+      display: none;
+  }
+  .slicknav_ {
+      text-align: center;
+  }
+  .logo {
+      position: fixed;
+      left: 10px;
+      top: 0px;
+  }
+  .slicknav_menu a:hover {
+      border-radius: 5px;
+      background: var(--red);
+      color: var(--white);
+  }
+  .slicknav_menu.sticky {
+      position: fixed;
+      left: 0;
+      right: 0;
+      z-index: 5;
+  }
+  header.sticky {
+      background: none;
+      top: 0;
+      padding: 0;
+  }
+  .about-content {
+    padding-left: 0;
+    margin-top: 60px;
+  }
+  .content-header{
+    font-size: 25px;
+  }
+  .slider-content {
+    width: 310px;
+  }
+  .features-content {
+    padding: 0px 10px 15px;
+  }
+  .features-content img {
+      width: 50px;
+  }
+  .about-content .content-title::after {
+    left: 130px;
+  }
+  .about-content .content-title::before {
+    left: 90px;
+  }
+  
+  .discount-content {
+    width: 100%;
+  }
+  .discount-content h4 {
+    margin: 16px 0;
+}
+  .blogs-slider .slick-dots li button{
+    width: 22px;
+  }
+  .blogs-content h3{
+    font-size: 16px;
+  }
+  .clients-img-sontent {
+    margin-left: -25px;
+  }
+}
